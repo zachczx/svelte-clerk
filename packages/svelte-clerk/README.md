@@ -48,7 +48,7 @@ declare global {
 All Clerk runes and components must be children of the `<ClerkProvider>` component, which provides active session and user context.
 
 ```ts
-// src/+layout.server.ts
+// src/routes/+layout.server.ts
 import { buildClerkProps } from 'svelte-clerk/server';
 
 // To enable Clerk SSR support, add initial state props to the load function
